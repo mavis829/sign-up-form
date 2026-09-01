@@ -12,6 +12,16 @@ body {
   grid-template-columns: 1fr 1.5fr;
 }
 
+.logo-section {
+  position: relative;
+}
+
+.logo-section img {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
 .image-section {
   background-color: lightgreen;
 }
