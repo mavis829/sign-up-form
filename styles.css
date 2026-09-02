@@ -125,3 +125,83 @@ body {
   height: 32px;
   padding: 5px 8px;
 }
+
+
+.form-section {
+  padding: 20px 50px 35px;
+  background-color: white;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.12);
+}
+
+.form-section h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.form-field label {
+  margin-bottom: 5px;
+
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.form-field input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 34px;
+  padding: 5px 8px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 0 2px 5px rgba(0, 0, 255, 0.25);
+}
+
+.form-field input:user-invalid {
+  border-color: red;
+}
+
+.account-section {
+  padding: 35px 50px;
+}
+
+
+.account-section button {
+  padding: 12px 45px;
+
+  color: white;
+  background-color: #596d48;
+
+  border: none;
+  border-radius: 6px;
+
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.account-section button:hover {
+  background-color: #485a3a;
+}
+
+
+.log-in {
+  margin-top: 28px;
+  font-size: 16px;
+}
+
+.log-in a {
+  color: #596d48;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.log-in a:hover {
+  text-decoration: underline;
+}
