@@ -18,22 +18,29 @@ body {
   grid-template-columns: 1fr 1.5fr;
 }
 
-.logo-section {
+.image-section {
   position: relative;
 }
 
-.logo-section img {
+.logo-section {
   position: absolute;
-  width: 200px;
-  height: 100px;
   left: 100px;
   top: 200px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-section img {
+  width: 100px;
+  height: 100px;
   object-fit: contain;
 }
 
 .logo-text {
   font-family: "Norse", sans-serif;
-  font-size: 50px;
+  font-size: 60px;
   color: white;
 }
 
