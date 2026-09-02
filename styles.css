@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Norse";
+  src: url("Norsebold.otf") format("opentype");
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -23,6 +29,13 @@ body {
   left: 100px;
   top: 200px;
   object-fit: contain;
+}
+
+.logo-text {
+  font-family: "Norse", sans-serif;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
 }
 
 .image-section {
